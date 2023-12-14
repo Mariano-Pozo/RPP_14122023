@@ -30,7 +30,7 @@
                     break;
             }
         }
-        public LibroDeCienciaFiccion (string nombre, ENivelDificultad nivelDificultad) : base(nombre) 
+        public LibroDeCienciaFiccion (string nombre, ENivelDificultad nivelDificultad) : base(nombre,false)
         {
             this.nivelDificultad = nivelDificultad;
             
